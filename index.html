@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Send Email</title>
+</head>
+<body>
+<script src="campaigns.js"></script>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const campaignKey = params.get("campaign");
+
+  if (!campaignKey || !CAMPAIGNS[campaignKey]) {
+    document.body.innerHTML = "<p>Invalid or missing campaign.</p>";
+    throw new Error("Invalid campaign");
+  }
+
+  const campaign = CAMPAIGNS[campaignKey];
+
+  const body =
+    campaign.bodies[Math.floor(Math.random() * campaign.bodies.length)];
+
+  const mailto =
+    `mailto:${campaign.recipient}` +
+    `?subject=${encodeURIComponent(campaign.subject)}` +
+    `&body=${encodeURIComponent(body)}`;
+
+  window.location.href = mailto;
+</script>
+
+<p>If your email app didn’t open automatically, <a id="link">click here</a>.</p>
+
+<script>
+  document.getElementById("link").href = mailto;
+</script>
+</body>
+</html>
