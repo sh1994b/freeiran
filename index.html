@@ -3,37 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Send Email</title>
-  <style>
-    body { font-family: sans-serif; padding: 20px; }
-    a.button { display: inline-block; margin: 10px 0; padding: 10px 20px; background: #0072ce; color: white; text-decoration: none; border-radius: 5px; }
-    a.button:hover { background: #005aa3; }
-  </style>
 </head>
 <body>
-
-<h2>💚🤍❤️ Send your email</h2>
-
-<br/>
-<p>Be sure to fill in the "[Your Name]" area at the bottom of the email!</p>
-<p>I encourage you to add your own message to the email as well to avoid it going to spam!</p>
-<br/>
-  
-<p>Choose your email app:</p>
-
-<a id="default" class="button">📧 Your default email app</a><br>
-<a id="gmail" class="button">📬 Gmail</a>
-
-<p>If neither link works automatically, you can copy and paste this text into your email manually.</p>
-
-<p>Subject:</p>
-<pre id="copySubject" style="background:#f4f4f4; padding:5px; border-radius:5px;"></pre>
-<br/>
-<pre id="copyBody" style="background:#f4f4f4; padding:10px; border-radius:5px; white-space: pre-wrap;"></pre>
-
-
 <script src="campaigns.js"></script>
 <script>
-  // Get campaign from URL
   const params = new URLSearchParams(window.location.search);
   const campaignKey = params.get("campaign");
 
@@ -44,21 +17,27 @@
 
   const campaign = CAMPAIGNS[campaignKey];
 
-  // Pick random body and subject
-  const body = campaign.bodies[Math.floor(Math.random() * campaign.bodies.length)];
-  const subject = campaign.subjects[Math.floor(Math.random() * campaign.subjects.length)];
+  const body =
+    campaign.bodies[Math.floor(Math.random() * campaign.bodies.length)];
+  const subject =
+  campaign.subjects[Math.floor(Math.random() * campaign.subjects.length)];
 
-  document.getElementById("copyBody").textContent = body;
-  document.getElementById("copySubject").textContent = subject;
+  const mailto =
+    `mailto:${campaign.recipient}` +
+    `?subject=${encodeURIComponent(subject)}` +
+    `&body=${encodeURIComponent(body)}`;
 
-  // Apple Mail link
-  const mailtoLink = `mailto:${campaign.recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-  document.getElementById("apple").href = mailtoLink;
+  window.location.href = mailto;
 
-  // Gmail web compose link
-  const gmailLink = `https://mail.google.com/mail/?view=cm&to=${encodeURIComponent(campaign.recipient)}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-  document.getElementById("gmail").href = gmailLink;
+  setTimeout(() => {
+    window.location.href = "https://linktr.ee/ishabbehere";
+  }, 1000);
 </script>
 
+<p>If your email app didn’t open automatically, <a id="link">click here</a>.</p>
+
+<script>
+  document.getElementById("link").href = mailto;
+</script>
 </body>
 </html>
