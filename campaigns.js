@@ -6,7 +6,12 @@ const CAMPAIGNS = {
       "Ethical Concern: Huda Beauty and Disinformation",
       "Immediate Action Requested: Huda Beauty Products",
       "Ulta Beauty Must Act on Huda Beauty Disinformation",
-      "Request for Accountability: Huda Beauty at Ulta"
+      "Request for Accountability: Huda Beauty at Ulta",
+      "Huda Beauty Spreads Iran Regime Propaganda - Remove Products",
+      "Stop Selling Huda Beauty - Regime Disinformation",
+      "Huda Beauty Must Go - Whitewashing Genocide",
+      "Remove Huda Beauty - Spreading Dangerous Misinformation",
+      "Boycott Huda Beauty - Regime Propaganda Unacceptable"
     ],
     bodies: [
       `Dear Ms. Steelman and Ulta Beauty Leadership,
@@ -68,7 +73,48 @@ Since December 28th, more than 36,000 Iranians have been killed during peaceful 
 Ulta Beauty has an opportunity to take a clear ethical stance by removing Huda Beauty products from its stores and website immediately.
 
 Sincerely,
-[Your Name]  `
+[Your Name]`,
+      `Dear Ulta Beauty,
+I'm writing to request immediate removal of Huda Beauty products.
+On January 28, Huda Kattan admitted she doesn't know what's happening in Iran, then spread regime propaganda to 5 million followers, dismissing the massacre of 36,000+ Iranians as an "internal issue."
+Over 36,000 people have been killed since December 28th, with 24,000 more facing execution. Iran has imposed a total communications blackout. Iranian Americans cannot reach their families and live in terror. This is genocide, not an internal issue.
+Huda is whitewashing mass murder. Ulta cannot profit from a brand spreading disinformation that covers for atrocities.
+
+Please remove all Huda Beauty products immediately.
+Sincerely,
+[Your Name]`,
+      `Dear Ulta Leadership,
+      
+Huda Kattan used her platform to spread Islamic Republic propaganda about Iran's ongoing massacre, admitting she "doesn't really know what's going on" before sharing regime talking points to millions.
+The facts: 36,000+ Iranians killed since December 28th. Iranian American families unreachable for two weeks due to communications blackout. 24,000 protesters awaiting execution. Huda dismissed this as just an "internal issue."
+By selling Huda Beauty, Ulta profits from someone actively spreading misinformation during a genocide. This is unacceptable.
+
+Remove Huda Beauty products now.
+Thank you,
+[Your Name]`,
+      `Dear Ulta,
+Huda Kattan just told 5 million followers she doesn't understand Iran's situation, then spread regime propaganda calling a massacre an "internal issue."
+Reality: 36,000+ dead. 24,000 facing execution. Total communications blackout preventing Iranian Americans from knowing if their families are alive. This isn't internal politics - it's genocide.
+Huda is providing cover for mass murder while admitting ignorance. Every dollar spent on her products funds someone whitewashing atrocities.
+
+Remove Huda Beauty immediately.
+Sincerely,
+[Your Name]`,
+      `Dear Ulta Beauty,
+On January 28th, Huda Kattan admitted knowing nothing about Iran, then shared Islamic Republic propaganda to millions, dismissing 36,000+ deaths as an "internal matter."
+Iranian Americans are terrified with no contact with families for two weeks. The regime has killed over 36,000 people and plans to execute 24,000 more. Huda's propaganda helps the regime hide these crimes from the world.
+Ulta should not sell products from influencers who spread dangerous misinformation during ongoing massacres.
+
+Please discontinue Huda Beauty products.
+Regards,
+[Your Name]`,
+      `Dear Ulta,
+Huda Kattan spread Iranian regime propaganda yesterday despite admitting she doesn't know what's happening. She told 5 million followers the massacre is just an "internal issue."
+The truth: 36,000+ killed since December 28. Iranian Americans unable to reach families for weeks due to total blackout. 24,000 protesters sentenced to death. This is one of history's worst massacres happening right now.
+By platforming regime propaganda, Huda provides cover for genocide. Ulta must not profit from this.
+Remove all Huda Beauty products immediately.
+Thank you,
+[Your Name]`
     ]
   },
 
@@ -79,7 +125,12 @@ Sincerely,
       "Ethical Concern: Huda Beauty and Disinformation",
       "Immediate Action Requested: Huda Beauty Products",
       "Sephora Must Act on Huda Beauty Disinformation",
-      "Request for Accountability: Huda Beauty at Sephora"
+      "Request for Accountability: Huda Beauty at Sephora",
+      "Huda Beauty Spreads Iran Regime Propaganda - Remove Products",
+      "Stop Selling Huda Beauty - Regime Disinformation",
+      "Huda Beauty Must Go - Whitewashing Genocide",
+      "Remove Huda Beauty - Spreading Dangerous Misinformation",
+      "Boycott Huda Beauty - Regime Propaganda Unacceptable"
     ],
     bodies: [
       `Dear Ms. Patrick, Ms. Willat, and Sephora Leadership,
@@ -141,7 +192,48 @@ Since December 28th, more than 36,000 Iranians have been killed during peaceful 
 Sephora has an opportunity to take a clear ethical stance by removing Huda Beauty products from its stores and website immediately.
 
 Sincerely,
-[Your Name]  `
+[Your Name]  `,
+      `Dear Sephora,
+I'm writing to request immediate removal of Huda Beauty products.
+On January 28, Huda Kattan admitted she doesn't know what's happening in Iran, then spread regime propaganda to 5 million followers, dismissing the massacre of 36,000+ Iranians as an "internal issue."
+Over 36,000 people have been killed since December 28th, with 24,000 more facing execution. Iran has imposed a total communications blackout. Iranian Americans cannot reach their families and live in terror. This is genocide, not an internal issue.
+Huda is whitewashing mass murder. Sephora cannot profit from a brand spreading disinformation that covers for atrocities.
+
+Please remove all Huda Beauty products immediately.
+Sincerely,
+[Your Name]`,
+      `Dear Sephora Leadership,
+      
+Huda Kattan used her platform to spread Islamic Republic propaganda about Iran's ongoing massacre, admitting she "doesn't really know what's going on" before sharing regime talking points to millions.
+The facts: 36,000+ Iranians killed since December 28th. Iranian American families unreachable for two weeks due to communications blackout. 24,000 protesters awaiting execution. Huda dismissed this as just an "internal issue."
+By selling Huda Beauty, Sephora profits from someone actively spreading misinformation during a genocide. This is unacceptable.
+
+Remove Huda Beauty products now.
+Thank you,
+[Your Name]`,
+      `Dear Sephora,
+Huda Kattan just told 5 million followers she doesn't understand Iran's situation, then spread regime propaganda calling a massacre an "internal issue."
+Reality: 36,000+ dead. 24,000 facing execution. Total communications blackout preventing Iranian Americans from knowing if their families are alive. This isn't internal politics - it's genocide.
+Huda is providing cover for mass murder while admitting ignorance. Every dollar spent on her products funds someone whitewashing atrocities.
+
+Remove Huda Beauty immediately.
+Sincerely,
+[Your Name]`,
+      `Dear Sephora Beauty,
+On January 28th, Huda Kattan admitted knowing nothing about Iran, then shared Islamic Republic propaganda to millions, dismissing 36,000+ deaths as an "internal matter."
+Iranian Americans are terrified with no contact with families for two weeks. The regime has killed over 36,000 people and plans to execute 24,000 more. Huda's propaganda helps the regime hide these crimes from the world.
+Sephora should not sell products from influencers who spread dangerous misinformation during ongoing massacres.
+
+Please discontinue Huda Beauty products.
+Regards,
+[Your Name]`,
+      `Dear Sephora,
+Huda Kattan spread Iranian regime propaganda yesterday despite admitting she doesn't know what's happening. She told 5 million followers the massacre is just an "internal issue."
+The truth: 36,000+ killed since December 28. Iranian Americans unable to reach families for weeks due to total blackout. 24,000 protesters sentenced to death. This is one of history's worst massacres happening right now.
+By platforming regime propaganda, Huda provides cover for genocide. Sephora must not profit from this.
+Remove all Huda Beauty products immediately.
+Thank you,
+[Your Name]`
     ]
   }
 };
