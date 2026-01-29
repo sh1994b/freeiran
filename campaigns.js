@@ -116,5 +116,54 @@ Remove all Huda Beauty products immediately.
 Thank you,
 [Your Name]`
     ]
+  },
+  noohi: {
+    recipient: "artemis.patrick@sephora.com, joan.willat@sephora.com, kristin.kitterman@sephora.com",
+    subjects: [
+      "Urgent Ethics Review Needed - Ehsan Noohi Bezanjani",
+      "Employee Ethics Concern - Regime Official's Son",
+      "Concern Regarding Ehsan Noohi Bezanjani Employment",
+      "Ethical Review Required - Noohi Bezanjani",
+      "Request Ethics Investigation - Ehsan Noohi Bezanjani"
+    ],
+    bodies: [
+      `Dear Intuitive Surgical Leadership,
+I'm requesting an ethics review of employee Ehsan Noohi Bezanjani. His father, Dr. Fereydoun Noohi Bezanjani, is Khamenei's personal cardiologist who attempted forging Mahsa Amini's medical records to cover up her 2022 murder by Iran's morality police.
+Iran is committing genocide: 36,000+ killed, 24,000 awaiting execution. His father serves this murderous regime at the highest level.
+While Iranians are slaughtered, their oppressors' children work at American companies. 
+
+Please review this situation.
+Thank you,
+[Your Name]`,
+      `Dear Intuitive Surgical,
+Ehsan Noohi Bezanjani, your Senior System Analyst, is son of Dr. Fereydoun Noohi - Khamenei's cardiologist who tried forging Mahsa Amini's medical records to hide her killing by regime forces.
+Since December 28: 36,000+ massacred, 24,000 facing execution, total communications blackout. His father serves this regime at its highest levels and covered up murder.
+Does Intuitive stand behind employing children of officials who falsify records to hide state killings? Please investigate.
+
+Sincerely,
+[Your Name]`,
+      `Dear HR Team,
+Your employee Ehsan Noohi Bezanjani is the son of Supreme Leader Khamenei's personal physician, Dr. Fereydoun Noohi, who attempted to forge medical records to cover up Mahsa Amini's 2022 murder.
+Currently, 36,000+ Iranians have been killed since December 28. His father serves the regime committing these crimes. Iranian Americans live in terror unable to contact families.
+His father participated in covering up regime murder. I request Intuitive review whether his continued employment raises ethical or reputational concerns.
+
+Regards,
+[Your Name]`,
+      `Dear Intuitive Surgical,
+Ehsan Noohi Bezanjani works at your company. His father is Dr. Fereydoun Noohi Bezanjani, Khamenei's cardiologist who tried to falsify Mahsa Amini's medical records to hide her murder in 2022.
+Iran is massacring its people - 36,000+ dead since December 28, 24,000 awaiting execution. His father serves the regime orchestrating these atrocities at the highest level.
+While Iranian families can't reach loved ones, regime officials' children live comfortably in America. Does Intuitive find this acceptable?
+
+Please review this matter urgently.
+Thank you,
+[Your Name]`,
+      `Dear Intuitive Surgical HR,
+I'm writing about Ehsan Noohi Bezanjani, Senior System Analyst at your company. He is the son of Dr. Fereydoun Noohi Bezanjani, Supreme Leader Khamenei's personal cardiologist who attempted to forge Mahsa Amini's medical records in 2022 to cover up her murder by Iran's morality police.
+Since December 28th, over 36,000 Iranians have been killed by the regime his father serves at the highest levels. Iranian Americans cannot reach families due to a total blackout. Another 24,000 face execution.
+His father didn't just treat regime officials - he actively covered up state murder. I urge Intuitive to review whether Mr. Noohi's employment presents ethical concerns.
+
+Sincerely,
+[Your Name]`
+      ]
   }
 };
