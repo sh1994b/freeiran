@@ -19,10 +19,12 @@
 
   const body =
     campaign.bodies[Math.floor(Math.random() * campaign.bodies.length)];
+  const subject =
+  campaign.subjects[Math.floor(Math.random() * campaign.subjects.length)];
 
   const mailto =
     `mailto:${campaign.recipient}` +
-    `?subject=${encodeURIComponent(campaign.subject)}` +
+    `?subject=${encodeURIComponent(subject)}` +
     `&body=${encodeURIComponent(body)}`;
 
   window.location.href = mailto;
