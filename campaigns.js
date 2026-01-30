@@ -234,7 +234,7 @@ Thank you,
       ]
   },
   bassam: {
-            recipient: "president@gmu.edu, stratcom@gmu.edu",
+    recipient: "president@gmu.edu, stratcom@gmu.edu",
     subjects: [
       "Faculty Misconduct - Bassam Haddad Mocking Massacre",
       "Urgent Concern - Professor Spreading Misinformation",
@@ -292,6 +292,79 @@ Community Note on his tweet confirmed 60,000-140,000 casualties. He dismissed ge
 Does GMU stand behind this? Please clarify university's position and address Professor Haddad's conduct.
 
 Thank you,
+[Your Name]`
+    ]
+  },
+  khatami: {
+    recipient: "czajkad@union.edu, dof@union.edu, President@union.edu",
+    subjects: [
+      "Urgent Ethics Review - Professor Leila Khatami",
+      "Concern About Faculty Member - Regime Official's Daughter",
+      "Request Investigation - Leila Khatami Employment",
+      "Faculty Ethics Concern - Khatami Regime Connection",
+      "Ethical Review Needed - Professor Khatami",
+      "Urgent Review Request - Leila Khatami"
+    ],
+    bodies: [
+    `Dear Union College Administration,
+
+I'm writing about Professor Leila Khatami, Associate Professor of Mathematics. She is the daughter of Mohammad Khatami, President of Iran from 1997-2005 who presided over executions of political prisoners, crushing of 1999 student protests, and maintained the oppressive regime structure.
+
+Since December 28th, 36,000+ Iranians have been killed by this same regime. Iranian Americans cannot reach families for weeks due to total blackout. 24,000 face execution.
+
+While Iranians are massacred and their families held hostage by the regime her father served at the highest level, Professor Khatami lives freely in America. Please review whether her employment presents ethical concerns.
+
+Sincerely,
+[Your Name]`,
+      `Dear Union College,
+
+Professor Leila Khatami is daughter of Mohammad Khatami, Iranian President 1997-2005. During his presidency: political executions continued, 1999 student protests were violently crushed, dissidents imprisoned and tortured.
+
+Currently 36,000+ Iranians killed since December 28, 24,000 awaiting execution. Iranian Americans live in terror unable to contact families while children of regime officials who held the nation hostage for decades teach at American universities.
+
+Does Union College find this acceptable? I urge ethics review of her continued employment.
+
+Thank you,
+[Your Name]`,
+      `Dear Administration,
+
+I request review of Professor Leila Khatami. Her father Mohammad Khatami was Iranian President who oversaw continued executions, brutal suppression of 1999 student uprising, and maintenance of authoritarian regime apparatus.
+
+Iran is committing genocide: 36,000+ dead since December 28. Her father served the regime at its highest level. While an entire nation is held hostage and massacred, his daughter enjoys freedom in America.
+
+Please investigate whether her employment raises institutional or ethical concerns.
+
+Regards,
+[Your Name]`,
+      `Dear Union College Leadership,
+
+Professor Leila Khatami's father Mohammad Khatami served as President of Iran's Islamic Republic for 8 years. Under his watch: executions of dissidents, violent crushing of student protests, imprisonment and torture of political prisoners.
+
+Since December 28: 36,000+ Iranians killed, 24,000 facing execution. Iranian Americans cannot reach families. Meanwhile children of officials who built and maintained this oppressive system live comfortably in the West.
+
+Does Union stand behind this? Please review urgently.
+
+Sincerely,
+[Your Name]`,
+      `Dear Union College,
+
+I urge review of Professor Leila Khatami's employment. Her father served 8 years as President of regime that has oppressed Iranians for decades. His presidency saw continued executions, violent suppression of 1999 protests, and systematic oppression.
+
+Currently 36,000+ massacred. Iranian Americans terrified, unable to reach families. An entire nation held hostage by the regime her father led while she teaches freely at American institution.
+
+Please conduct ethics investigation of her continued employment.
+
+Thank you,
+[Your Name]`,
+      `Dear Administration,
+
+Professor Leila Khatami is daughter of Mohammad Khatami, Iranian President 1997-2005 who presided over executions, torture, and violent crushing of student protests demanding freedom.
+
+Since December 28: 36,000+ Iranians killed by regime her father served at highest level for 8 years. 24,000 face execution. Total communications blackout. While nation is held hostage and massacred, regime officials' children live freely in America.
+
+Please review whether her employment presents ethical concerns for Union College.
+
+Sincerely,
 [Your Name]`
     ]
   }
